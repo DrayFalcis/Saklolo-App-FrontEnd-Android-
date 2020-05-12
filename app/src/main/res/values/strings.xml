@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SakloloApp</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="crimes">
+        <item>Type of Crime</item>
+        <item>Drug Trafficking</item>
+        <item>Holdap</item>
+        <item>Murder/Pagpatay</item>
+        <item>Rape/Gahasa</item>
+        <item>Robbery/Panloloob</item>
+        <item>Theft/Pagnanakaw</item>
+        <item>Others? Please specify on comment box</item>
+    </string-array>
+
+    <string-array name="disaster">
+        <item>Type of Disaster</item>
+        <item>Earthquake/Lindol</item>
+        <item>Flash Flood/Pagbaha</item>
+        <item>Landslide/Pagguho ng lupa</item>
+        <item>Tornado/Buhawi</item>
+        <item>Tsunami/Sunami</item>
+        <item>Typhoon/Bagyo</item>
+        <item>Others? Please specify on comment box</item>
+    </string-array>
+
+    <string-array name="emergency">
+        <item>Type of Emergency</item>
+        <item>Hit by Vehicle/Nasagasaan</item>
+        <item>Hearth Attack/Atake sa puso</item>
+        <item>Stroke</item>
+        <item>Stabbed/Nasaksak</item>
+        <item>Gunshot wound/Nabaril</item>
+        <item>Others? Please specify on comment box</item>
+
+
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

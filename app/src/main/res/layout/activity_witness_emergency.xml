@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".WitnessEmergency">
+
+    <EditText
+        android:id="@+id/txt_location"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/emergency_list"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/custom_edit_text"
+        android:elevation="10dp"
+        android:hint="Location (REQUIRED)"
+        android:textColorHint="#ff0000"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/emergency_list"
+        android:layout_width="301dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_contact"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/custom_edit_text"
+        android:elevation="10dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/txt_contact"
+        android:layout_width="301dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_comment"
+        android:layout_marginTop="154dp"
+        android:background="@drawable/custom_edit_text"
+        android:elevation="10dp"
+        android:hint="Contact Number "
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/txt_comment"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/send_saklolo"
+        android:layout_centerVertical="true"
+        android:background="@drawable/custom_edit_text"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="comments"
+        android:lines="5"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/send_saklolo"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="118dp"
+        android:layout_marginStart="19dp"
+        android:background="@drawable/rounded_button"
+        android:enabled="false"
+        android:text="SAKLOLO"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/send2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="@null"
+        android:elevation="20dp"
+        android:src="@drawable/saklolo"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/gpslogo"
+        android:layout_width="73dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txt_location"
+        android:layout_marginEnd="17dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/gpslogo1"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/received"
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:elevation="20dp"
+        android:src="@drawable/received"
+        android:visibility="gone" />
+
+</RelativeLayout>

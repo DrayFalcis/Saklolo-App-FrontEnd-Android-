@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".ui4"
+    >
+
+    <ImageButton
+        android:id="@+id/btn_crime"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_emergency"
+        android:layout_marginTop="129dp"
+        android:background="@null"
+        android:elevation="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/crime2" />
+
+    <ImageButton
+        android:id="@+id/btn_disaster"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_crime"
+        android:layout_marginEnd="20dp"
+        android:background="@null"
+        android:elevation="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/disaster2" />
+
+    <ImageButton
+        android:id="@+id/btn_emergency"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginStart="20dp"
+        android:background="@null"
+        android:elevation="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/emergency2" />
+
+
+    <ImageButton
+        android:id="@+id/btn_fire"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/btn_disaster"
+        android:layout_alignTop="@+id/btn_emergency"
+        android:background="@null"
+        android:elevation="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fire2" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "111442338640",
+    "firebase_url": "https://sakloloapp-463f7.firebaseio.com",
+    "project_id": "sakloloapp-463f7",
+    "storage_bucket": "sakloloapp-463f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111442338640:android:38efd35bbf955373",
+        "android_client_info": {
+          "package_name": "com.example.falcis.sakloloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111442338640-805v78m03n0avg0kmfd3pa7m72rlbcoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.falcis.sakloloapp",
+            "certificate_hash": "c3f77db97c0b85ca65b156b31daf74399477a075"
+          }
+        },
+        {
+          "client_id": "111442338640-q444idjuge8p59q2s1ide5bvloso87jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEFxvuAEOkbte5zTxDPumuVqNgymLojQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111442338640-q444idjuge8p59q2s1ide5bvloso87jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
